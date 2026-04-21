@@ -1,0 +1,11 @@
+torch
+pandas
+numpy
+scikit-learn
+datasets
+transformers
+trl
+peft
+accelerate
+pyyaml
+unsloth[kaggle-new] @ git+https://github.com/unslothai/unsloth.git

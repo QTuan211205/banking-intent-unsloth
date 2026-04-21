@@ -1,0 +1,11 @@
+model_name: "unsloth/llama-3-8b-bnb-4bit"
+max_seq_length: 256
+lora_r: 16
+lora_alpha: 16
+lora_dropout: 0.05
+learning_rate: 0.0002
+batch_size: 2
+grad_accumulation: 8
+epochs: 2
+seed: 3407
+output_dir: "../unsloth_banking_sft_lora"

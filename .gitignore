@@ -1,0 +1,12 @@
+# Bỏ qua folder chứa model checkpoint
+banking_outputs/
+model_weights/
+*.zip
+*.pt
+*.bin
+*.safetensors
+
+# Bỏ qua môi trường ảo và cache
+venv/
+__pycache__/
+.ipynb_checkpoints/

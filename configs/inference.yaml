@@ -1,0 +1,2 @@
+model_checkpoint_path: "/kaggle/working/model_weights"
+max_seq_length: 256
