@@ -11,7 +11,7 @@ Dự án này chứa mã nguồn cho **Đồ án 2: Tinh chỉnh mô hình phát
 ## 📺 Video Demonstration
 Video trình diễn thực thi script, ví dụ đầu vào và độ chính xác.
 
-👉 [**Xem Video Demo tại đây**](https://drive.google.com/drive/folders/1KO1XpgEF305-Z_Juq8tBXhggoz6UjnIK?hl=vi)
+👉 [**Xem Video Demo tại đây**](https://drive.google.com/file/d/1-IQxBcTMX8p_3q9lMp-E8dJ_p-LHnIk7/view?usp=sharing)
 
 ---
 
@@ -51,6 +51,7 @@ Python
 Thực thi script để dự đoán ý định:
 
 Bash
+!chmod +x inference.sh
 !bash inference.sh
 Ví dụ sử dụng (Python):
 
