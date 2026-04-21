@@ -1,2 +1,2 @@
-model_checkpoint_path: "/kaggle/working/model_weights"
+model_checkpoint_path: "/kaggle/working/model_weights/model/checkpoint-626"
 max_seq_length: 256

@@ -36,20 +36,22 @@ banking-intent-unsloth/
 Cài đặt các thư viện cần thiết trên Kaggle/Colab:
 
 Bash
-git clone [https://github.com/QTuan211205/banking-intent-unsloth.git](https://github.com/QTuan211205/banking-intent-unsloth.git)
-cd banking-intent-unsloth
-pip install -r requirements.txt
+!git clone [https://github.com/QTuan211205/banking-intent-unsloth.git](https://github.com/QTuan211205/banking-intent-unsloth.git)
+%cd banking-intent-unsloth
+!pip install -r requirements.txt
 📦 2. Tải trọng số (Pre-trained Weights)
 Nếu không muốn train lại, chạy lệnh này trong Notebook để tải model từ Drive:
 
 Python
 !pip install gdown
-!gdown --folder 1RSHsvAPPlxq6fiXD8pal3JaX1DlDH9Pc -O /kaggle/working/model_weights
+!gdown --id 1Lquydw-30-ytuaovT1KWNqVOz-U7T7Oz -O model.zip
+!mkdir -p /kaggle/working/model_weights
+!unzip -o model.zip -d /kaggle/working/model_weights
 🎯 3. Chạy suy luận (Inference)
 Thực thi script để dự đoán ý định:
 
 Bash
-bash inference.sh
+!bash inference.sh
 Ví dụ sử dụng (Python):
 
 Python
