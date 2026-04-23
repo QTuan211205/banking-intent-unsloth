@@ -35,30 +35,34 @@ banking-intent-unsloth/
 🛠️ 1. Cài đặt môi trường
 Cài đặt các thư viện cần thiết trên Kaggle/Colab:
 
-Bash
+```bash
 !git clone [https://github.com/QTuan211205/banking-intent-unsloth.git](https://github.com/QTuan211205/banking-intent-unsloth.git)
 %cd banking-intent-unsloth
 !pip install -r requirements.txt
+```
 📦 2. Tải trọng số (Pre-trained Weights)
 Nếu không muốn train lại, chạy lệnh này trong Notebook để tải model từ Drive:
 
-Python
+```bash
 !pip install gdown
 !gdown --id 1Lquydw-30-ytuaovT1KWNqVOz-U7T7Oz -O model.zip
 !mkdir -p /kaggle/working/model_weights
 !unzip -o model.zip -d /kaggle/working/model_weights
+```
 🎯 3. Chạy suy luận (Inference)
 Thực thi script để dự đoán ý định:
 
-Bash
+```bash
 !chmod +x inference.sh
 !bash inference.sh
+```
 Ví dụ sử dụng (Python):
 
-Python
+```bash
 from scripts.inference import IntentClassification
 
 classifier = IntentClassification(model_path="configs/inference.yaml")
 message = "I lost my credit card, what should I do?"
 print(f"🤖 Dự đoán: {classifier(message)}")
+```
 🎯 Kết quả: Độ chính xác tập Test đạt 91.40%.
