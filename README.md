@@ -32,6 +32,7 @@ banking-intent-unsloth/
 ├── inference.sh             # Bash chạy suy luận
 ├── requirements.txt         # Thư viện phụ thuộc
 └── README.md                # Tài liệu hướng dẫn
+```
 🛠️ 1. Cài đặt môi trường
 Cài đặt các thư viện cần thiết trên Kaggle/Colab:
 
