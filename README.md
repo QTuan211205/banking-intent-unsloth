@@ -11,7 +11,7 @@ Dự án này chứa mã nguồn cho **Đồ án 2: Tinh chỉnh mô hình phát
 ## 📺 Video Demonstration
 Video trình diễn thực thi script, ví dụ đầu vào và độ chính xác.
 
-👉 [**Xem Video Demo tại đây**](https://drive.google.com/file/d/1-IQxBcTMX8p_3q9lMp-E8dJ_p-LHnIk7/view?usp=sharing)
+👉 [**Xem Video Demo tại đây**](https://drive.google.com/file/d/1vJ6hK7Qz0-mRSemskGwWsbzlABkSFIjb/view?usp=drive_link)
 
 ---
 
